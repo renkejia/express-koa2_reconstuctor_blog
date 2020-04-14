@@ -1,0 +1,6 @@
+::1 - - [12/Apr/2020:02:43:03 +0000] "GET /api/blog/list HTTP/1.0" 200 304 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+::1 - - [12/Apr/2020:02:43:06 +0000] "GET /api/blog/detail?id=3 HTTP/1.0" 200 118 "http://localhost:8080/detail.html?id=3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Apr/2020:02:43:06 +0000] "GET /api/blog/list HTTP/1.0" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+::1 - - [12/Apr/2020:02:43:07 +0000] "GET /api/blog/detail?id=3 HTTP/1.0" 304 - "http://localhost:8080/detail.html?id=3" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Apr/2020:02:45:47 +0000] "GET /api/admin HTTP/1.0" 404 136 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
+::1 - - [12/Apr/2020:02:45:53 +0000] "GET /api/blog/list?isadmin=1 HTTP/1.0" 200 34 "http://localhost:8080/admin" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36"
